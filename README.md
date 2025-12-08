@@ -6,6 +6,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 
 ### 🎨 Módulo 1: Introdução às Redes e à Internet
 | Aula | Tópico Principal | Status |
+| :-- | :-- | :-- |
 | 01 | Conceitos fundamentais de redes de computadores | Concluído |
 | 02 | Protocolos de comunicação em Redes | Concluído |
 | 03 | Endereçamento de IP, Sub-redes e Portas | Concluído |
