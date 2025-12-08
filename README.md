@@ -4,7 +4,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 
 ## 📚 Índice de Progresso
 
-### 🎨 Módulo 1: Introdução às Redes e à Internet
+### Módulo 1: 🌐 Introdução às Redes e à Internet
 | Aula | Tópico Principal | Status |
 | :-- | :-- | :-- |
 | 01 | Conceitos fundamentais de redes de computadores | Concluído |
@@ -19,6 +19,32 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | 10 | Tendências e Desafios nas Redes Modernas | Concluído |
 
 
+### Módulo 2: 🐙 Controle de Versão (Git)
+| Aula | Tópico Principal | Status |
+| :-- | :-- | :-- |
+| 01 | Git, VSCode e GitLens | Concluído |
+| 02 | Branches e Merge | Concluído |
+| 03 | Repositório Remoto | Concluído |
+| 04 | Pull Request | Concluído |
+
+### Módulo 3:🔗 HTML
+| Aula | Tópico Principal | Status |
+| :-- | :-- | :-- |
+| 01 | HTML 5 - HyperText Markup Language | Concluído |
+| 02 | Explorando o Uso de Áudio e Vídeo | Concluído |
+
+### Módulo 4: 🎨 CSS
+| Aula | Tópico Principal | Status |
+| :-- | :-- | :-- |
+| 01 | Introdução ao CSS (Cascading Style Sheets) | Concluído |
+| 02 | Flexbox | Concluído |
+
+### Módulo 5: 🖥️ UX-UI 
+| Aula | Tópico Principal | Status |
+| :-- | :-- | :-- |
+| 01 | Cores e GIMP | Em andamento |
+| 02 | Figma | Em andamento |
+
 
 ---
-*Desenvolvido por **Davi Ladeira Balsemão**.*
+*Desenvolvido por **Davi Ladeira Balsamão**.*
