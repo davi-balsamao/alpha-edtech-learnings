@@ -39,10 +39,11 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | 02 | Flexbox | Concluído ✅ |
 
 ### Módulo 5: 🖥️ UX-UI 
-| Aula | Tópico Principal | Status |
-| :-- | :-- | :-- |
-| 01 | Cores e GIMP | Em andamento 🚧 |
-| 02 | Figma | Em andamento 🚧 |
+
+| Aula | Tópico Principal | Status | Link |
+| :-- | :-- | :-- | :-- |
+| 01 | Cores e GIMP | Concluído ✅ | [Resolução](./Modulo_UX-UI/Aula01-Cores_e_GIMP/Resolucao/Lista.md) |
+| 02 | Figma |Concluído ✅ | [Resolução](./Modulo_UX-UI/Aula02-Figma/lista.md) |
 
 
 ---
