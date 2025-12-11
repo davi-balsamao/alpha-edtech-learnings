@@ -49,7 +49,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 ### Módulo 6: 🧠 Javascript
 | Aula | Tópico Principal | Status | Link |
 | :-- | :-- | :-- | :-- |
-| 01 | Tópicos, DOM, Condicionais | Em andamento 🚧 | [Resolução](./Modulo_JS/Aula01-Topicos_DOM_Cond/lista.md) |
+| 01 | Tópicos, DOM, Condicionais | Concluído ✅ | [Resolução](./Modulo_JS/Aula01-Topicos_DOM_Cond/lista.md) |
 
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*

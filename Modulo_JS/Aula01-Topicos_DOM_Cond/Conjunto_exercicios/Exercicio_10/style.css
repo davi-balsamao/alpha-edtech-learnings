@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace; /* Fonte monoespaçada combina com Regex */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #282c34; /* Dark mode style */
+    color: white;
+}
+
+.container {
+    background-color: #3b4048;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #61dafb; /* React Blue */
+}
+
+.desc {
+    font-size: 0.9rem;
+    color: #abb2bf;
+    margin-bottom: 25px;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #282c34;
+    color: white;
+    border: 1px solid #555;
+}
+
+input:focus {
+    outline: none;
+    border-color: #61dafb;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Classes de Estado da Mensagem */
+.message {
+    font-weight: bold;
+    font-size: 1.1rem;
+    min-height: 24px; /* Evita pulo de layout */
+}
+
+.success {
+    color: #98c379; /* Verde suave */
+}
+
+.error {
+    color: #e06c75; /* Vermelho suave */
+}

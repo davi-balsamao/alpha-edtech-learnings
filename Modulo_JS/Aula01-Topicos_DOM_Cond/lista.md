@@ -16,7 +16,18 @@ Mas a página não está funcionando como Joãozinho queria. Explique por que n�
 
 **Resposta**
 
+O código do Joãozinho captura o .value (o texto) no exato momento que a página carrega. Nesse momento, o input está vazio. Quando ele clica no botão, o alert mostra aquela variável antiga (vazia), e não o que foi digitado depois. Devemos capturar o elemento input fora, mas capturar o valor (.value) apenas dentro da função, no momento do clique.
+```js
+const inputElement = document.querySelector("input");
+const button = document.querySelector("button");
 
+function printText() {
+    const text = inputElement.value; // Captura o valor no clique
+    alert(text);
+}
+
+button.addEventListener("click", printText);
+```
 
 ---
 ## Q2
@@ -29,7 +40,7 @@ E o mesmo para o seletor da cor da fonte.
 
 **Resposta**
 
-
+Link da resposta: [Arquivo js](./Conjunto_exercicios/Exercicio_2/index.js)
 
 ---
 ## Q3
@@ -39,7 +50,7 @@ Faça uma página web de seleção de lanche. Quando a página abre, o primeiro 
 
 **Resposta**
 
-
+Link da resposta: [Arquivo js](./Conjunto_exercicios/Exercicio_3/index.js)
 
 ---
 ## Q4
@@ -49,7 +60,7 @@ Vamos fazer uma janela modal (janela “por cima” da página). Faça a seguint
 
 **Resposta**
 
-
+Link da resposta: [Arquivo js](./Conjunto_exercicios/Exercicio_4/index.js)
 
 ---
 ## Q5
@@ -57,7 +68,7 @@ Faça uma página web com dois botões: um contendo a imagem de uma bomba de enc
 
 **Resposta**
 
-
+Link da resposta: [Arquivo js](./Conjunto_exercicios/Exercicio_5/index.js)
 
 ---
 ## Q6
@@ -66,7 +77,7 @@ Faça uma página que contenha um input e um botão “adicionar”, e embaixo d
 
 **Resposta**
 
-
+Link da resposta: [Arquivo js](./Conjunto_exercicios/Exercicio_6/index.js)
 
 ---
 ## Q7
@@ -74,7 +85,7 @@ Faça um botão que conta quantas vezes ele foi clicado. No início, o botão te
 
 **Resposta**
 
-
+Link da resposta: [Arquivo js](./Conjunto_exercicios/Exercicio_7/index.js)
 
 ---
 ## Q8
@@ -92,7 +103,22 @@ Qual o problema desse código? É um Erro de Execução, um Erro de Sintaxe, ou 
 
 **Resposta**
 
+É um erro lógico a condição `if (number === 0 || 4 || 7)` é avaliada pelo JavaScript assim:
+- `number === 0` Pode ser True ou False
+- `|| 4` -> O número 4 é verdadeiro em JS.
+- Portanto, a condição sempre será verdadeira, não importa o número digitado.
 
+O código correto seria:
+```js 
+// Precisamos comparar a variável com CADA número explicitamente
+if (number === 0 || number === 4 || number === 7) {
+    alert("Parabéns, você acertou!");
+} else {
+    alert("Você não acertou");
+}
+// Ou usando array (mais elegante):
+// if ([0, 4, 7].includes(number)) { ... }
+```
 
 ---
 ## Q9
@@ -109,7 +135,7 @@ A biblioteca Math é útil para sortear números. Mas ela só sorteia entre 0 e 
 
 **Resposta**
 
-
+Link da resposta: [Arquivo js](./Conjunto_exercicios/Exercicio_9/index.js)
 
 ---
 ## Q10
@@ -117,6 +143,6 @@ Faça uma página web que tenha um input do tipo “text” e um botão. Ao clic
 
 **Resposta**
 
-
+Link da resposta: [Arquivo js](./Conjunto_exercicios/Exercicio_10/index.js)
 
 ---

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.snack-container {
+    display: flex;
+    gap: 15px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.snack-item {
+    background: none;
+    font-size: 3rem; /* Tamanho do emoji */
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    
+    /* TRUQUE: Borda transparente para evitar pulo no layout */
+    border: 3px solid transparent; 
+}
+
+.snack-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estado Selecionado (Requisito da Questão) */
+.snack-item.selected {
+    border-color: #ff4d4d; /* Vermelho */
+    background-color: #fff0f0; /* Fundo levemente vermelho */
+    transform: translateY(-5px); /* Efeito visual de destaque */
+}

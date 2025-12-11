@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 9 - Sorteador Random</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h2>Sorteador de Números</h2>
+        <p class="subtitle">Defina o intervalo e sorteie um número inteiro.</p>
+
+        <div class="input-group">
+            <div class="field">
+                <label for="min-input">Mínimo (Inclusivo)</label>
+                <input type="text" id="min-input" placeholder="Ex: 1">
+            </div>
+
+            <div class="field">
+                <label for="max-input">Máximo (Inclusivo)</label>
+                <input type="text" id="max-input" placeholder="Ex: 10">
+            </div>
+        </div>
+
+        <button id="sortear-btn">Sortear Número</button>
+
+        <div id="feedback-area" class="feedback hidden">
+            </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
