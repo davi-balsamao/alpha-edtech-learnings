@@ -39,7 +39,7 @@ h2 {
     border-radius: 12px;
     transition: all 0.2s ease;
     
-    /* TRUQUE: Borda transparente para evitar pulo no layout */
+    /* Borda transparente para evitar pulo no layout */
     border: 3px solid transparent; 
 }
 
@@ -47,7 +47,6 @@ h2 {
     background-color: #f0f0f0;
 }
 
-/* Estado Selecionado (Requisito da Questão) */
 .snack-item.selected {
     border-color: #ff4d4d; /* Vermelho */
     background-color: #fff0f0; /* Fundo levemente vermelho */

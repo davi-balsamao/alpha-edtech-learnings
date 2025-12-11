@@ -8,18 +8,16 @@ function handleAddTask() {
     // 2. Captura o valor cru
     const rawValue = taskInput.value;
 
-    // 3. Processamento de Dados (Requisito da Questão)
-    // .trim() -> Remove espaços do início e fim ("  oi  " vira "oi")
-    // .toLowerCase() -> Converte tudo para minúsculo
+    // 3. Processamento de Dados 
     const cleanValue = rawValue.trim().toLowerCase();
 
-    // 4. Validação: Se estiver vazio após o trim, não faz nada
+    // 4. Validação: 
     if (cleanValue === "") {
         alert("Por favor, digite uma tarefa válida.");
         return; 
     }
 
-    // 5. Criação do Elemento HTML (DOM Manipulation)
+    // 5. Criação do Elemento HTML
     const newItem = document.createElement('li');
     newItem.innerText = cleanValue; // Insere o texto processado
 
@@ -33,10 +31,3 @@ function handleAddTask() {
 
 // Evento de Clique
 addBtn.addEventListener('click', handleAddTask);
-
-// [Bônus] Adicionar ao apertar ENTER (Padrão de UX)
-taskInput.addEventListener('keypress', (event) => {
-    if (event.key === 'Enter') {
-        handleAddTask();
-    }
-});

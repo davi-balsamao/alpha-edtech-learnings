@@ -21,10 +21,3 @@ function validatePhone() {
 
 btn.addEventListener('click', validatePhone);
 
-// Validação em tempo real (Opcional - mas elegante)
-/*
-input.addEventListener('input', () => {
-    msg.innerText = ""; // Limpa a mensagem enquanto digita
-    msg.className = "message";
-});
-*/

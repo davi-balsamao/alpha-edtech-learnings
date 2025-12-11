@@ -1,10 +1,10 @@
-// 1. Estado Inicial
+// Estado Inicial
 let clickCount = 0;
 
-// 2. Seleção do Elemento
+// Seleção do Elemento
 const button = document.getElementById('counter-btn');
 
-// 3. Lógica do Clique
+// Lógica do Clique
 button.addEventListener('click', () => {
     // Incrementa o contador antes de verificar
     clickCount++;
@@ -15,14 +15,12 @@ button.addEventListener('click', () => {
         button.innerText = "Clicou 1 vez";
     } 
     else if (clickCount <= 10) {
-        // Plural (Template String é útil aqui)
+        // Plural até 10
         button.innerText = `Clicou ${clickCount} vezes`;
     } 
     else {
         // Mensagem final após 10 cliques
         button.innerText = "Ainda não enjoou ?";
-        
-        // [Opcional] Mudar a cor para indicar "fim de jogo"
         button.style.backgroundColor = "#34495e"; 
         button.style.cursor = "not-allowed";
     }
