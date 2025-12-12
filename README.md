@@ -50,6 +50,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | Aula | Tópico Principal | Status | Link |
 | :-- | :-- | :-- | :-- |
 | 01 | Tópicos, DOM, Condicionais | Concluído ✅ | [Resolução](./Modulo_JS/Aula01-Topicos_DOM_Cond/lista.md) |
+| 02 | Mapeamento, Date e Manipulação de DOM | Em andamento 🚧 | [Resolução](./Modulo_JS/Aula02-Mapeamento,_Date_e_Manipulação_de_DOM/lista.md) |
 
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*
