@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Dinâmica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="controls">
+        <h2>Adicionar Nova Imagem</h2>
+        
+        <div class="input-group">
+            <label for="titulo">Título</label>
+            <input type="text" id="titulo" placeholder="Ex: Gato de Botas">
+        </div>
+
+        <div class="input-group">
+            <label for="url">Link (URL)</label>
+            <input type="text" id="url" placeholder="Ex: https://...">
+        </div>
+
+        <button id="btn-add">Adicionar</button>
+    </div>
+
+    <hr>
+
+    <div id="galeria"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

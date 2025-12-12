@@ -16,7 +16,17 @@ Esse código imprime 3 no console. Por quê ? Mostre o passo a passo da execuç�
 
 **Resposta**
 
+No código `console.log(obj[obj[obj["a b c"] + 40]]);`. Resolvendo do mais interno para o mais externo, temos que o mais interno é:
+- `obj["a b c"]`, que tem o valor `2`
+- Expressão atual: `obj[obj[2 + 40]]`
 
+Resolvendo a soma: `2 + 40` = `42`
+- Expressão atual: `obj[obj[42]]`, sendo assim:
+- O objeto com `42` tem o valor `2`
+- Expressão atual: `obj[2]`
+- O objeto com `2` tem o valor `3`
+
+Por causa disso, o resultado impresso final é igual a `3`.
 
 ---
 ## Q2
@@ -27,7 +37,7 @@ Depois faça uma versão alternativa da página, que não usa ```switch```, mas 
 
 **Resposta**
 
-
+Link do arquivo js: [Exercicio 2](./Conjunto_exercicios/Exercicio_2/script.js)
 
 ---
 ## Q3
@@ -41,7 +51,7 @@ Use um único objeto para fazer o cadastro dos produtos.
 
 **Resposta**
 
-
+Link do arquivo js: [Exercicio 3](./Conjunto_exercicios/Exercicio_3/script.js)
 
 ---
 ## Q4
@@ -77,7 +87,7 @@ Quando o usuário digita uma tarefa no input e clica em “Adicionar”, ela é 
 
 **Resposta**
 
-
+Link do arquivo js: [Exercicio 4](./Conjunto_exercicios/Exercicio_4/script.js)
 
 ---
 ## Q5
@@ -91,7 +101,7 @@ Quando a div pequena é clicada, ela troca de cor, digamos que ela ficou “ativ
 
 **Resposta**
 
-
+Link do arquivo js: [Exercicio 5](./Conjunto_exercicios/Exercicio_5/script.js)
 
 ---
 ## Q6
@@ -101,19 +111,19 @@ Refaça o exercício anterior (versão básica, não bônus), mas agora a div pe
 
 **Resposta**
 
-
+Link do arquivo js: [Exercicio 6](./Conjunto_exercicios/Exercicio_6/script.js)
 
 ---
 ## Q7
 Vamos fazer uma galeria de imagens. A página terá dois inputs: um para o título da imagem, outro para o link (URL) da imagem. O usuário preenche esses inputs e clica num botão “Adicionar”. Embaixo da região dos inputs, há uma <div> com display: flex inicialmente sem conteúdo. Ao clicar no botão adicionar, surge um novo “card” dentro dessa div mostrando o título da imagem e a imagem em si:
 
-![Imagem exercicio 7](./img_enunciados/enun_exe7.png)
+![Imagem exercicio 8](./img_enunciados/enun_exe7.png)
 
 Ao clicar no card de uma imagem, o card é removido da lista (desaparece).
 
 **Resposta**
 
-
+Link do arquivo js: [Exercicio 7](./Conjunto_exercicios/Exercicio_7/script.js)
 
 ---
 ## Q8
@@ -149,6 +159,6 @@ Esse código está incompleto. A intenção dele é fazer uma página que funcio
 
 **Resposta**
 
-
+Link do arquivo js: [Exercicio 8](./Conjunto_exercicios/Exercicio_8/script.js)
 
 --- 

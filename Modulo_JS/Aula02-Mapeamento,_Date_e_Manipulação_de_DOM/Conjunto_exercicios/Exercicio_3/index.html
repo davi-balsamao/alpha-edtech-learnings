@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="section">
+        <div class="input-group">
+            <label>Nome do produto</label>
+            <input type="text" id="input-nome" placeholder="Ex: Monitor">
+        </div>
+
+        <div class="input-group">
+            <label>Imagem do produto (URL)</label>
+            <input type="text" id="input-url" placeholder="https://...">
+        </div>
+
+        <button id="btn-cadastrar">Cadastrar</button>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <label>Selecione um produto:</label>
+        <select id="select-produtos">
+            <option value="" disabled selected>-- Escolha --</option>
+        </select>
+        
+        <button id="btn-exibir">Exibir</button>
+    </div>
+
+    <div id="display-area" class="hidden">
+        <h2 id="display-nome">Nome do Produto Aqui</h2>
+        <img id="display-img" src="" alt="Produto">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

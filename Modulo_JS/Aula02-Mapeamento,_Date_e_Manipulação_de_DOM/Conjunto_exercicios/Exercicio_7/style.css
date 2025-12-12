@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.controls {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e55a5a;
+}
+
+/* --- Estilo da Galeria e dos Cards --- */
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar linha */
+    gap: 20px;       /* Espaço entre os cards */
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    border-color: #ff6b6b;
+}
+
+.card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover; /* Evita que a imagem fique esticada/deformada */
+    border-radius: 4px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    word-wrap: break-word; /* Quebra palavras muito longas */
+}

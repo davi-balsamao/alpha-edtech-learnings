@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffcccc; /* Cor rosada do desenho */
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffaaaa;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 2px solid #ccc;
+}
+
+/* Área de exibição final */
+#display-area {
+    margin-top: 30px;
+    border: 2px solid #3498db; /* Borda Azul */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    min-height: 200px;
+    background-color: #f9fcff;
+}
+
+/* Classe utilitária para esconder a div antes de ter produto */
+.hidden {
+    display: none;
+}
+
+#display-img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
