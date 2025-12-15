@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Receitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div id="recipeList" class="recipe-list">
+                </div>
+            
+            <button id="btnAdd" class="btn-add">+</button>
+        </aside>
+
+        <main class="content">
+            
+            <div id="emptyState" class="empty-state">
+                <h2>Adicione uma receita<br>para começar</h2>
+            </div>
+
+            <div id="editForm" class="edit-form hidden">
+                <div class="form-header">
+                    <div class="input-group">
+                        <label>Título</label>
+                        <input type="text" id="titleInput" placeholder="Nome da receita">
+                    </div>
+                    <button id="btnDelete" class="btn-delete">Deletar</button>
+                </div>
+
+                <div class="input-group">
+                    <label>Ingredientes</label>
+                    <textarea id="ingredientsInput" rows="5"></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label>Modo de preparo</label>
+                    <textarea id="stepsInput" rows="5"></textarea>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

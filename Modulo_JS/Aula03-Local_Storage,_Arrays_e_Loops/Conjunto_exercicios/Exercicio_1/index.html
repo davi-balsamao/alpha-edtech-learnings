@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Lembretes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Novo Lembrete</h1>
+        
+        <div class="input-group">
+            <label for="reminderInput">O que você precisa lembrar?</label>
+            <input type="text" id="reminderInput" placeholder="Ex: Ir ao dentista">
+        </div>
+
+        <div class="input-group">
+            <label for="dateInput">Para quando?</label>
+            <input type="date" id="dateInput">
+        </div>
+
+        <div class="button-group">
+            <button id="btnAdd" class="btn primary">Adicionar</button>
+            <button id="btnShowToday" class="btn secondary">Mostrar lembretes de hoje</button>
+        </div>
+
+        <div id="displayArea" class="output-box hidden">
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

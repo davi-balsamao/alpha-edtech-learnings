@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 5 - Jogo do Sorteio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <h2>Sorteador 1 a 30</h2>
+        
+        <div class="secao-sorteio">
+            <p class="instrucao">1º Passo: Gere os números secretos</p>
+            <button id="btn-sortear" class="btn-primary">Sortear</button>
+            <p id="status-sorteio" class="status-msg"></p> 
+        </div>
+
+        <hr>
+
+        <div class="secao-jogo">
+            <p class="instrucao">2º Passo: Tente adivinhar um número</p>
+            <div class="input-group">
+                <input type="number" id="input-chute" placeholder="Digite um nº entre 1 e 30">
+                <button id="btn-chutar" class="btn-secundary">Chutar</button>
+            </div>
+        </div>
+
+        <div id="mensagem-resultado"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* Reset e Base (igual ao anterior) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Um pouco mais largo para caber a tabela */
+    text-align: center;
+}
+
+h2 { margin-bottom: 1rem; color: #333; }
+.instrucao { margin-bottom: 0.5rem; color: #666; font-size: 0.9rem; text-align: left;}
+
+/* Estilo do Textarea */
+textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical; /* Permite redimensionar só na altura */
+    font-family: inherit;
+}
+
+button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #b6d7a8; /* Um verde suave para variar */
+    border: 1px solid #93c47d;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #2b4520;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:hover { background-color: #a2c494; }
+
+/* --- ESTILOS DA TABELA (Importante) --- */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços duplos entre bordas */
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* Zebrar as linhas (visual profissional) */
+tr:nth-child(even) {
+    background-color: #fafafa;
+}

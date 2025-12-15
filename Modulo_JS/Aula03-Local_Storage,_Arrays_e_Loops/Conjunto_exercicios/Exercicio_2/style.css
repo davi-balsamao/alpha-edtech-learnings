@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace; /* Fonte estilo máquina de escrever das imagens */
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    border: 2px solid #333;
+    background: white;
+}
+
+/* --- SIDEBAR (ESQUERDA) --- */
+.sidebar {
+    width: 250px;
+    border-right: 2px solid #333;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.recipe-list {
+    flex: 1; /* Ocupa o espaço disponível */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    background-color: #bcebc4; /* Verde pastel */
+    border: 2px solid #333;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.card.active {
+    background-color: #a0d4ff; /* Azul quando selecionado */
+    transform: scale(1.02);
+}
+
+.btn-add {
+    margin-top: 10px;
+    background-color: #ffb6c1; /* Rosa */
+    border: 2px solid #333;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-add:hover {
+    background-color: #ff9dae;
+}
+
+/* --- CONTEÚDO (DIREITA) --- */
+.content {
+    flex: 1;
+    padding: 40px;
+    position: relative;
+}
+
+/* Estado Vazio */
+.empty-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: #555;
+}
+
+/* Formulário de Edição */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn-delete {
+    background-color: #ffb6c1;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 45px;
+}

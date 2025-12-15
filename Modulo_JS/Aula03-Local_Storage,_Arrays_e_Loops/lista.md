@@ -12,7 +12,7 @@ Primeiro o usuário adiciona um lembrete associado a um certo dia do ano. Quando
 
 **Resposta**    
 
-
+Link do arquivo js: [Arquivo JS](./Conjunto_exercicios/Exercicio_1/script.js)
 
 ---
 ## Q2
@@ -20,7 +20,7 @@ Vamos fazer uma página para registrar receitas culinárias. Para simplificar, a
 
 ![Imagem 1 exercicio 2](./img_enunciados/enun1_exe2.png)
 
-Ao clicar no “+”, é inserido (dentro da <div> indicada) um card com os dizeres “Sem Título” (ele representa uma nova receita, cursor pointer quando passa o mouse):
+Ao clicar no “+”, é inserido (dentro da `<div>` indicada) um card com os dizeres “Sem Título” (ele representa uma nova receita, cursor pointer quando passa o mouse):
 
 ![Imagem 2 exercicio 2](./img_enunciados/enun2_exe2.png)
 
@@ -71,7 +71,7 @@ Sugestões/dicas:
 
 **Resposta**
 
-
+Link do arquivo js: [Arquivo JS](./Conjunto_exercicios/Exercicio_2/script.js)
 
 ---
 ## Q3
@@ -83,7 +83,7 @@ Ao clicar no botão Listar, valide que ambos os inputs são numéricos e inteiro
 
 **Resposta**
 
-
+Link do arquivo js: [Arquivo JS](./Conjunto_exercicios/Exercicio_3/script.js)
 
 ---
 ## Q4
@@ -93,7 +93,7 @@ Sugestão: pesquise sobre o método de string chamado split(), ele permite quebr
 
 **Resposta**
 
-
+Link do arquivo js: [Arquivo JS](./Conjunto_exercicios/Exercicio_4/script.js)
 
 ---
 ## Q5
@@ -101,7 +101,7 @@ Faça uma página web com um botão “Sortear”. Ao clicar nesse botão, a pá
 
 **Resposta**
 
-
+Link do arquivo js: [Arquivo JS](./Conjunto_exercicios/Exercicio_5/script.js)
 
 ---
 ## Q6
@@ -129,6 +129,7 @@ O array de produtos deve ser salvo no Local Storage. Ao recarregar a página, a 
 
 **Resposta**
 
+Link do arquivo js: [Arquivo JS](./Conjunto_exercicios/Exercicio_6/script.js)
 
 
 ---

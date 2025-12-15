@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #eef2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h2 { margin-bottom: 1.5rem; color: #2c3e50; }
+
+.instrucao {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 0.8rem;
+    text-align: left;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 2rem 0;
+}
+
+/* Botões */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s, opacity 0.2s;
+}
+
+button:active { transform: scale(0.98); }
+
+.btn-primary {
+    background-color: #3498db; /* Azul */
+    color: white;
+}
+.btn-primary:hover { background-color: #2980b9; }
+
+.btn-secundary {
+    background-color: #e67e22; /* Laranja */
+    color: white;
+    margin-top: 10px;
+}
+.btn-secundary:hover { background-color: #d35400; }
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Mensagens */
+.status-msg {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #27ae60;
+    min-height: 20px; /* Para não pular layout */
+}
+
+#mensagem-resultado {
+    margin-top: 1.5rem;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Classes utilitárias para JS adicionar depois */
+.sucesso {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.erro {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}

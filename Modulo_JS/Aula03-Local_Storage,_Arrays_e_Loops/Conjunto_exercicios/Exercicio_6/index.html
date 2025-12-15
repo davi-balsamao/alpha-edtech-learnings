@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="container">
+        <section class="card">
+            <h2>Cadastrar Produto</h2>
+            <div class="form-group">
+                <label for="input-nome">Nome do Produto</label>
+                <input type="text" id="input-nome" placeholder="Ex: Teclado Mecânico">
+            </div>
+            
+            <div class="form-group">
+                <label for="input-descricao">Descrição</label>
+                <input type="text" id="input-descricao" placeholder="Ex: Switch Blue, RGB...">
+            </div>
+
+            <div class="form-group">
+                <label for="input-valor">Valor (R$)</label>
+                <input type="number" id="input-valor" step="0.01" placeholder="0.00">
+            </div>
+
+            <button id="btn-incluir" class="btn-primary">Incluir Produto</button>
+            
+            <div id="msg-feedback" class="feedback-msg"></div>
+        </section>
+
+        <section class="card mt-20">
+            <h3>Lista de Produtos</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Valor</th>
+                        <th class="text-center">Editar</th>
+                        <th class="text-center">Apagar</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-produtos">
+                    </tbody>
+            </table>
+        </section>
+    </main>
+
+    <div id="modal-visualizar" class="modal-overlay hidden">
+        <div class="modal-content">
+            <h3>Detalhes do Produto</h3>
+            <p><strong>ID:</strong> <span id="view-id"></span></p>
+            <p><strong>Nome:</strong> <span id="view-nome"></span></p>
+            <p><strong>Descrição:</strong> <span id="view-descricao"></span></p>
+            <p><strong>Valor:</strong> <span id="view-valor"></span></p>
+            <button id="btn-fechar-view" class="btn-secondary">Fechar</button>
+        </div>
+    </div>
+
+    <div id="modal-editar" class="modal-overlay hidden">
+        <div class="modal-content">
+            <h3>Editar Produto</h3>
+            <input type="hidden" id="edit-id">
+            
+            <div class="form-group">
+                <label>Nome</label>
+                <input type="text" id="edit-nome">
+            </div>
+            <div class="form-group">
+                <label>Descrição</label>
+                <input type="text" id="edit-descricao">
+            </div>
+            <div class="form-group">
+                <label>Valor</label>
+                <input type="number" id="edit-valor" step="0.01">
+            </div>
+            
+            <div class="btn-row">
+                <button id="btn-salvar-edit" class="btn-primary">Salvar Alterações</button>
+                <button id="btn-cancelar-edit" class="btn-secondary">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
