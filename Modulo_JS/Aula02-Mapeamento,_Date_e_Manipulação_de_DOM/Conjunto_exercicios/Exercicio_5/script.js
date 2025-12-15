@@ -29,7 +29,7 @@ document.addEventListener('click', function() {
 document.addEventListener('keydown', function(event) {
     if (!activeMovable) return;
 
-    const step = event.shiftKey ? 40 : 10;
+    const step = event.shiftKey ? 100 : 10;
 
     const currentLeft = activeMovable.offsetLeft;
     const currentTop = activeMovable.offsetTop;
