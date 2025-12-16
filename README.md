@@ -42,7 +42,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 
 | Aula | Tópico Principal | Status | Link |
 | :-- | :-- | :-- | :-- |
-| 01 | Cores e GIMP | Concluído ✅ | [Resolução](./Modulo_UX-UI/Aula01-Cores_e_GIMP/Resolucao/Lista.md) |
+| 01 | Cores e GIMP | Concluído ✅ | [Resolução](./Modulo_UX-UI/Aula01-Cores_e_GIMP/Lista.md) |
 | 02 | Figma |Concluído ✅ | [Resolução](./Modulo_UX-UI/Aula02-Figma/lista.md) |
 | 03 | Desafio relâmpago | Em andamento 🚧 |[Resolução](./Modulo_UX-UI/Desafio_Relâmpago/lista.md) |
 

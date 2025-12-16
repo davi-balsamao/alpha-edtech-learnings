@@ -12,7 +12,7 @@ E o termo de busca é “case insensitive”: quer dizer que digitar “AB” é
 
 **Resposta**
 
-
+Link do arquivo js: [Arquivo js](./Conjunto_exercicios/Exercicio_1/script.js)
 
 ---
 ## Q2
