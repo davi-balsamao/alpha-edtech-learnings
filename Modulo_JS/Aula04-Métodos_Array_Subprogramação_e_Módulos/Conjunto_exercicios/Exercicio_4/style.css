@@ -1,0 +1,101 @@
+/* --- Reset e Fontes --- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: #0b0d17; /* Fundo escuro */
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 { font-family: 'Playfair Display', serif; }
+
+/* --- Header --- */
+.header {
+    position: absolute; /* Fica por cima da imagem */
+    top: 0; width: 100%;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.header nav a {
+    color: white; text-decoration: none; margin: 0 1.5rem;
+    font-size: 0.9rem; letter-spacing: 1px;
+    opacity: 0.8; transition: 0.3s;
+}
+.header nav a:hover { opacity: 1; }
+
+/* --- Outdoor (Hero Section) --- */
+.outdoor-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    /* AQUI: Substitua pela imagem de fundo principal */
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('assets/logo-icon.jpg'); 
+}
+
+.outdoor-section h1 { font-size: 5rem; margin-bottom: 1rem; }
+.outdoor-section p { font-size: 1.1rem; letter-spacing: 2px; }
+
+/* --- Seções Genéricas --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.section-title { font-size: 2.5rem; margin-bottom: 1rem; }
+.section-desc { 
+    max-width: 600px; margin: 0 auto 4rem auto; 
+    color: #a0a0a0; line-height: 1.6; 
+}
+
+/* --- Grids de Cards --- */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* --- Card Genérico --- */
+.card {
+    background-color: #1a1c26; /* Levemente mais claro que o fundo */
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: left;
+}
+.card:hover { transform: translateY(-5px); }
+
+.card img { width: 100%; height: 250px; object-fit: cover; }
+
+.card-content { padding: 1.5rem; }
+.card-content h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+.card-content p { color: #a0a0a0; font-size: 0.9rem; line-height: 1.5; }
+.card-info { 
+    font-size: 0.8rem; color: #7aa7ff; 
+    text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; display: block;
+}
+
+/* --- Footer --- */
+.footer {
+    padding: 4rem;
+    text-align: center;
+    background-color: #05060a;
+    color: #555;
+    font-size: 0.8rem;
+}
+.footer nav { margin-top: 1rem; }
+.footer nav a { color: #888; text-decoration: none; margin: 0 10px; }
+
+html {
+    scroll-behavior: smooth;
+}

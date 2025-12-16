@@ -23,6 +23,7 @@ Mostre o número de dias restantes para o usuário.
 
 **Resposta**
 
+Link do arquivo js: [Arquivo js](./Conjunto_exercicios/Exercicio_2/script.js)
 
 
 ---
@@ -52,7 +53,7 @@ Implemente essas funções como fica subentendido no código dado, para que o si
 
 **Resposta**
 
-
+Link do arquivo js: [Arquivo js](./Conjunto_exercicios/Exercicio_3/script.js)
 
 ---
 ## Q4
@@ -139,6 +140,6 @@ Esses parâmetros deverão ser utilizados na construção do componente do card.
 
 **Resposta**
 
-
+Link do arquivo js: [Arquivo js](./Conjunto_exercicios/Exercicio_4/index.js)
 
 ---

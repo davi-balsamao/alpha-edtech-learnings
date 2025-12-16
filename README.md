@@ -52,6 +52,6 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | 01 | Tópicos, DOM, Condicionais | Concluído ✅ | [Resolução](./Modulo_JS/Aula01-Topicos_DOM_Cond/lista.md) |
 | 02 | Mapeamento, Date e Manipulação de DOM | Concluído ✅ | [Resolução](./Modulo_JS/Aula02-Mapeamento,_Date_e_Manipulação_de_DOM/lista.md) |
 | 03 | Local Storage, Arrays e Loops | Concluído ✅ | [Resolução](./Modulo_JS/Aula03-Local_Storage,_Arrays_e_Loops/lista.md) |
-| 04 | Métodos Array, Subprogramação e Módulos | Em andamento 🚧 | [Resolução](./Modulo_JS/Aula04-Métodos_Array_Subprogramação_e_Módulos/lista.md) |
+| 04 | Métodos Array, Subprogramação e Módulos | Concluído ✅ | [Resolução](./Modulo_JS/Aula04-Métodos_Array_Subprogramação_e_Módulos/lista.md) |
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*

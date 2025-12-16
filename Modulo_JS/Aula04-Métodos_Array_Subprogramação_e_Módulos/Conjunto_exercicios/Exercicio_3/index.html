@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <section class="card">
+            <h2>Cadastro de Contato</h2>
+            <p class="subtitle">Preencha os dados abaixo.</p>
+
+            <div class="form-group">
+                <label for="name-input">Nome Completo</label>
+                <input type="text" id="name-input" placeholder="Min. 3 caracteres">
+            </div>
+
+            <div class="form-group">
+                <label for="telephone-input">Telefone</label>
+                <input type="text" id="telephone-input" placeholder="(XX) XXXXX-XXXX">
+            </div>
+
+            <button class="btn-primary">Cadastrar</button>
+            
+            <div id="msg-feedback" class="feedback-msg hidden"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
