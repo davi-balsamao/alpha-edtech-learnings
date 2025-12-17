@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #2c3e50;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 { margin-bottom: 5px; color: #f1c40f; }
+p { margin-top: 0; color: #bdc3c7; }
+
+/* SORTEADOR (GLOBO) */
+.painel-controle {
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.ball-big {
+    font-size: 3rem;
+    background: #e74c3c;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    margin: 10px 0;
+}
+
+.historico {
+    max-width: 600px;
+    word-wrap: break-word;
+    color: #ecf0f1;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.1s;
+}
+
+button:hover { background-color: #2ecc71; }
+button:active { transform: scale(0.95); }
+button:disabled { background-color: #7f8c8d; cursor: not-allowed; }
+
+/* CARTELAS */
+.cartelas-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cartela {
+    background: #ecf0f1;
+    color: #2c3e50;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.cartela h3 { margin-top: 0; border-bottom: 2px solid #bdc3c7; padding-bottom: 5px; }
+
+.grid-numeros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 10px;
+}
+
+.num-cartela {
+    background: #bdc3c7;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    user-select: none;
+}
+
+.num-cartela:hover { background: #95a5a6; }
+
+/* CLASSE DE NÚMERO MARCADO (QUANDO O USUÁRIO ACERTA) */
+.num-cartela.marcado {
+    background-color: #27ae60;
+    color: white;
+    cursor: default;
+    position: relative;
+}
+
+.num-cartela.marcado::after {
+    content: '✓';
+    position: absolute;
+    right: 5px;
+    font-size: 0.8em;
+}
+
+.vitoria {
+    background-color: #f1c40f;
+    color: #c0392b;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    animation: pulse 1s infinite;
+}
+
+.hidden { display: none; }
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}

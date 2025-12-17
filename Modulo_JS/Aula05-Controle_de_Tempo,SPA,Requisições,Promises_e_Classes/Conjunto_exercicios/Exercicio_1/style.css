@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.erro {
+    color: red;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#resultado p {
+    margin: 8px 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 4px;
+}
+
+#btnExibirMapa {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #28a745;
+}
+
+#btnExibirMapa:hover {
+    background-color: #218838;
+}
+
+#mapaContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+/* REQUISITO: Cursor wait e bloqueio de operações */
+body.esperando {
+    cursor: wait;
+}
+
+body.esperando * {
+    pointer-events: none; /* Bloqueia cliques em tudo */
+}

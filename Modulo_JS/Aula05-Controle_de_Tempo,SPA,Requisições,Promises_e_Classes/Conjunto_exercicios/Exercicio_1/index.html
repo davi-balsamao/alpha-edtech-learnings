@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consultar Localidade</h1>
+        
+        <div class="input-group">
+            <input type="text" id="cepInput" placeholder="Digite o CEP (apenas números)" maxlength="8">
+            <button id="btnConsultar">Consultar</button>
+        </div>
+        
+        <div id="mensagemErro" class="erro hidden"></div>
+
+        <div id="resultado" class="hidden">
+            <h2>Dados do Endereço:</h2>
+            <p><strong>Endereço:</strong> <span id="resEndereco"></span></p>
+            <p><strong>Bairro:</strong> <span id="resBairro"></span></p>
+            <p><strong>Cidade:</strong> <span id="resCidade"></span></p>
+            <p><strong>Estado:</strong> <span id="resEstado"></span></p>
+            <p><strong>Latitude:</strong> <span id="resLat"></span></p>
+            <p><strong>Longitude:</strong> <span id="resLon"></span></p>
+
+            <button id="btnExibirMapa">Exibir mapa</button>
+        </div>
+
+        <div id="mapaContainer" class="hidden">
+            <iframe id="iframeMapa" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

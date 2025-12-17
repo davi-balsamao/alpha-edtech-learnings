@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG - Herança (Com Avatar)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simulador de Classes RPG</h1>
+            <div class="class-selector">
+                <label>Escolha a Classe:</label>
+                <select id="selectClass">
+                    <option value="cowboy">🤠 Cowboy</option>
+                    <option value="mago">🧙‍♂️ Mago</option>
+                    <option value="avatar">😐 Avatar Comum</option>
+                </select>
+                <button id="btnReset">Reiniciar</button>
+            </div>
+        </header>
+        
+        <div class="hud">
+            <div class="stat-box">
+                <span class="label">Vida (HP)</span>
+                <span id="displayHP" class="value hp-full">10</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Moedas</span>
+                <span id="displayCoins" class="value gold">0</span>
+            </div>
+            <div class="stat-box">
+                <span id="lblResource" class="label">Recurso</span>
+                <span id="displayResource" class="value resource">--</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Posição</span>
+                <span id="displayPos" class="value">0, 0</span>
+            </div>
+        </div>
+
+        <div id="gameGrid" class="grid-area">
+            <div id="avatarIcon" class="avatar-icon">🤠</div>
+        </div>
+
+        <div class="controls">
+            <div class="dpad">
+                <button id="btnForward">⬆️ Frente</button>
+                <div class="horizontal">
+                    <button id="btnLeft">⬅️ Esq</button>
+                    <button id="btnRight">Dir ➡️</button>
+                </div>
+                <button id="btnBack">⬇️ Trás</button>
+            </div>
+
+            <div class="actions">
+                <button id="btnAction1" class="btn-yellow">💰 Pegar Moeda</button>
+                <button id="btnAttack" class="btn-red">⚔️ Atacar</button>
+                
+                <button id="btnSpecial" class="btn-blue hidden">🔫 Recarregar</button>
+                
+                <button id="btnDamage" class="btn-dark">💔 Receber Dano</button>
+            </div>
+        </div>
+
+        <div class="console-log" id="gameLog">
+            <p>> Jogo iniciado.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

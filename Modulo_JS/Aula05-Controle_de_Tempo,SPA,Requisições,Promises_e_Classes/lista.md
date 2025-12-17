@@ -23,7 +23,7 @@ Caso a consulta de CEP retorne **status de erro**:
 
 **Resposta**
 
-
+Link do arquivo js: [Resolução](./Conjunto_exercicios/Exercicio_1/script.js)
 
 ---
 ## Q2
@@ -46,7 +46,7 @@ ao selecionar um estado, uma requisição à API de localidades do IBGE (<https:
 
 **Resposta**
 
-
+Link do arquivo js: [Resolução](./Conjunto_exercicios/Exercicio_2/script.js)
 
 ---
 ## Q3
@@ -56,7 +56,7 @@ Utilize a API deck de cartas (<https://deckofcardsapi.com/>) para criar uma fun�
 
 **Resposta**
 
-
+Link do arquivo js: [Resolução](./Conjunto_exercicios/Exercicio_3/script.js)
 
 ---
 ## Q4
@@ -64,7 +64,7 @@ Reescreva a função da questão anterior utilizando o método Promise.all.
 
 **Resposta**
 
-
+Link do arquivo js: [Resolução](./Conjunto_exercicios/Exercicio_4/script.js)
 
 ---
 ## Q5
@@ -87,7 +87,7 @@ quando uma cartela tiver sido totalmente marcada, uma mensagem deve indicar o ga
 
 **Resposta**
 
-
+Link do arquivo js: [Resolução](./Conjunto_exercicios/Exercicio_5/script.js)
 
 ---
 ## Q6
@@ -109,7 +109,7 @@ quatro métodos de movimentação devem ser criados:
 
 **Resposta**
 
-
+Link do arquivo js: [Resolução](./Conjunto_exercicios/Exercicio_6/script.js)
 
 ---
 ## Q7
@@ -127,6 +127,6 @@ quando os feitiços se esgotarem, depois de 10 segundos, devem ser restaurados c
 
 **Resposta**
 
-
+Link do arquivo js: [Resolução](./Conjunto_exercicios/Exercicio_7/script.js)
 
 ---

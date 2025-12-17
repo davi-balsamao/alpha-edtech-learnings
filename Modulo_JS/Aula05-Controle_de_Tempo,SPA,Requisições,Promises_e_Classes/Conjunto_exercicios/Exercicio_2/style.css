@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+#loading {
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#errorMsg {
+    text-align: center;
+    color: red;
+    background: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.day-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.day-header {
+    text-align: center;
+    background-color: #0288d1;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin: -15px -15px 15px -15px;
+}
+
+.periodo {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+}
+
+.periodo:last-child {
+    border-bottom: none;
+}
+
+.periodo h4 {
+    margin: 0 0 5px 0;
+    color: #555;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.temp-range {
+    font-weight: bold;
+    color: #333;
+}

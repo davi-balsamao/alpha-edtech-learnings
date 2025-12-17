@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo com Closures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bingo System</h1>
+            <p>Clique nos números da sua cartela quando eles aparecerem no sorteador!</p>
+        </header>
+
+        <div class="painel-controle">
+            <div id="sorteador" class="sorteador-box">
+                <h2>Último Sorteado</h2>
+                <div id="numeroDestaque" class="ball-big">--</div>
+                <div class="historico">
+                    <small>Sorteados: <span id="listaSorteados"></span></small>
+                </div>
+            </div>
+
+            <button id="btnIniciar">INICIAR SORTEIO</button>
+            <div id="msgVitoria" class="vitoria hidden"></div>
+        </div>
+
+        <div id="areaCartelas" class="cartelas-container">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

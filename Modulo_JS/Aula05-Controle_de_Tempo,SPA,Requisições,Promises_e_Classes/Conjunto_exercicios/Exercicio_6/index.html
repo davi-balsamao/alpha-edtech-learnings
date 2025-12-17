@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 6 - Classe Avatar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador Avatar (Questão 6)</h1>
+        
+        <div class="hud">
+            <div class="stat-box">
+                <span class="label">Vida (HP)</span>
+                <span id="displayHP" class="value hp-full">10</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Moedas</span>
+                <span id="displayCoins" class="value gold">0</span>
+            </div>
+            <div class="stat-box">
+                <span class="label">Posição</span>
+                <span id="displayPos" class="value">0, 0</span>
+            </div>
+        </div>
+
+        <div id="gameGrid" class="grid-area">
+            <div id="avatar" class="avatar-icon">😐</div>
+        </div>
+
+        <div class="controls">
+            <h3>Movimentação</h3>
+            <div class="dpad">
+                <button id="btnForward">Frente (Y+)</button>
+                <div class="horizontal">
+                    <button id="btnLeft">Esquerda (X-)</button>
+                    <button id="btnRight">Direita (X+)</button>
+                </div>
+                <button id="btnBack">Trás (Y-)</button>
+            </div>
+
+            <h3>Ações</h3>
+            <div class="actions">
+                <button id="btnCoin" class="btn-yellow">💰 Pegar Moeda</button>
+                <button id="btnAttack" class="btn-red">⚔️ Atacar</button>
+                <button id="btnDamage" class="btn-dark">💔 Receber Dano (2)</button>
+                <button id="btnReset" class="btn-blue">🔄 Reiniciar</button>
+            </div>
+        </div>
+
+        <div class="console-log" id="gameLog">
+            <p>> Jogo iniciado. Avatar em (0,0).</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

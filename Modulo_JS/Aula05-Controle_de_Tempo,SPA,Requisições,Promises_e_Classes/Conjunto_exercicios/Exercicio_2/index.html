@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo INMET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Previsão do Tempo</h1>
+            <p>Selecione a localidade para ver a previsão (Hoje + 3 dias)</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="selectEstado">Estado:</label>
+                <select id="selectEstado">
+                    <option value="">Selecione um estado...</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label for="selectCidade">Cidade:</label>
+                <select id="selectCidade" disabled>
+                    <option value="">Aguardando estado...</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="loading" class="hidden">Carregando dados...</div>
+        <div id="errorMsg" class="hidden"></div>
+
+        <div id="forecastContainer" class="forecast-grid">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
