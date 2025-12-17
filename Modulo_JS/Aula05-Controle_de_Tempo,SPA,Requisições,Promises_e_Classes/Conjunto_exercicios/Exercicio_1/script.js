@@ -13,7 +13,7 @@ btnConsultar.addEventListener('click', consultarCEP);
 btnExibirMapa.addEventListener('click', exibirMapa);
 
 async function consultarCEP() {
-    const cep = cepInput.value.replace(/\D/g, '');
+    const cep = cepInput.value.replace(/\D/g, ''); // /\D/g -> D corresponde a Dígito (0-9) e g é global (string inteira)
 
     divErro.classList.add('hidden');
     divResultado.classList.add('hidden');
@@ -51,11 +51,11 @@ async function consultarCEP() {
             divResultado.classList.remove('hidden');
         } else {
                        
-            document.getElementById('resLat').innerText = currentLat + ' (Simulado)';
-            document.getElementById('resLon').innerText = currentLon + ' (Simulado)';
+            document.getElementById('resLat').innerText = 'Não disponível';
+            document.getElementById('resLon').innerText = 'Não disponível';
             
             divResultado.classList.remove('hidden');
-            alert('A API não retornou coordenadas exatas para este CEP específico, então usei o centro da cidade para exibir o mapa.');
+            alert('A API não retornou coordenadas exatas para este CEP.');
         }
 
     } catch (error) {

@@ -65,7 +65,7 @@ window.addEventListener('load', () => {
         .then(estados => {
             estados.forEach(uf => {
                 const option = document.createElement('option');
-                option.value = uf.id; // O ID é necessário para buscar cidades
+                option.value = uf.id; 
                 option.textContent = `${uf.nome} (${uf.sigla})`;
                 selectEstado.appendChild(option);
             });
@@ -78,7 +78,7 @@ selectEstado.addEventListener('change', (e) => {
     const estadoId = e.target.value;
     selectCidade.innerHTML = '<option value="">Carregando...</option>';
     selectCidade.disabled = true;
-    containerPrevisao.innerHTML = ''; // Limpa previsões anteriores
+    containerPrevisao.innerHTML = ''; 
     errorDiv.classList.add('hidden');
 
     if (!estadoId) {
@@ -93,7 +93,7 @@ selectEstado.addEventListener('change', (e) => {
             selectCidade.innerHTML = '<option value="">Selecione a cidade...</option>';
             cidades.forEach(cidade => {
                 const option = document.createElement('option');
-                option.value = cidade.id; // O ID do IBGE é o geocódigo para o INMET
+                option.value = cidade.id; 
                 option.textContent = cidade.nome;
                 selectCidade.appendChild(option);
             });
@@ -138,7 +138,7 @@ function criarCardDia(dataStr, infoDia) {
 
     // Tentar obter dia da semana
     const [dia, mes, ano] = dataStr.split('/');
-    const dateObj = new Date(`${ano}-${mes}-${dia}T00:00:00`); // Formato ISO para evitar timezone
+    const dateObj = new Date(`${ano}-${mes}-${dia}T00:00:00`); 
     const diaSemana = dateObj.toLocaleDateString('pt-BR', { weekday: 'long' });
 
     let htmlConteudo = `

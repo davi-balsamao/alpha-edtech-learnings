@@ -21,7 +21,7 @@ btnIniciar.addEventListener('click', async () => {
 });
 
 async function iniciarProcessoCartas() {
-
+    // Pede um deck novo ('new') e já embaralhado ('shuffle')
     const responseDeck = await fetch(`${API_BASE}/new/shuffle/?deck_count=1`);
     
     if (!responseDeck.ok) {
@@ -32,8 +32,9 @@ async function iniciarProcessoCartas() {
     const deckId = dadosDeck.deck_id;
 
     divStatus.innerText = `Deck ID: ${deckId}. Iniciando saques...`;
-
-    for (let i = 1; i <= 5; i++) {
+    // For com await -> resultado em Fila -> roda 1, espera, roda 2
+    // forEach ou map com await -> resultado em Paralelo -> todos de uma vez
+    for (let i = 1; i <= 5; i++) { 
         
         await new Promise(r => setTimeout(r, 500)); 
         
@@ -45,6 +46,7 @@ async function iniciarProcessoCartas() {
 
 
 async function sacarUmaCarta(deckId) {
+    // Monta a URL usando o ID do deck gerado 
     const url = `${API_BASE}/${deckId}/draw/?count=1`;
     
     const response = await fetch(url);
