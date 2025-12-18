@@ -44,7 +44,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | :-- | :-- | :-- | :-- |
 | 01 | Cores e GIMP | Concluído ✅ | [Resolução](./Modulo_UX-UI/Aula01-Cores_e_GIMP/Lista.md) |
 | 02 | Figma |Concluído ✅ | [Resolução](./Modulo_UX-UI/Aula02-Figma/lista.md) |
-| 03 | Desafio relâmpago | Em andamento 🚧 |[Resolução](./Modulo_UX-UI/Desafio_Relâmpago/lista.md) |
+| 03 | Desafio relâmpago | Concluído ✅ |[Resolução](https://davi-balsamao.github.io/portfolio/) |
 
 ### Módulo 6: 🧠 Javascript
 | Aula | Tópico Principal | Status | Link |
@@ -53,7 +53,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | 02 | Mapeamento, Date e Manipulação de DOM | Concluído ✅ | [Resolução](./Modulo_JS/Aula02-Mapeamento,_Date_e_Manipulação_de_DOM/lista.md) |
 | 03 | Local Storage, Arrays e Loops | Concluído ✅ | [Resolução](./Modulo_JS/Aula03-Local_Storage,_Arrays_e_Loops/lista.md) |
 | 04 | Métodos Array, Subprogramação e Módulos | Concluído ✅ | [Resolução](./Modulo_JS/Aula04-Métodos_Array_Subprogramação_e_Módulos/lista.md) |
-| 05 | Controle de Tempo, SPA, Requisições, Promises e Classes | Em andamento 🚧 | [Resolução](./Modulo_JS/Aula05-Controle_de_Tempo,SPA,Requisições,Promises_e_Classes/lista.md) |
+| 05 | Controle de Tempo, SPA, Requisições, Promises e Classes | Concluído ✅ | [Resolução](./Modulo_JS/Aula05-Controle_de_Tempo,SPA,Requisições,Promises_e_Classes/lista.md) |
 
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*
