@@ -1,4 +1,4 @@
-const MAX_X = 10; 
+const MAX_X = 17; 
 const MAX_Y = 4;
 
 class Avatar {
@@ -223,7 +223,7 @@ function atualizarHUD() {
 function logEvent(msg) {
     const p = document.createElement('p');
     p.innerText = `> ${msg}`;
-    logContainer.prepend(p);
+    logContainer.prepend(p); // add no topo
 }
 
 document.getElementById('btnForward').onclick = () => player.forward();

@@ -1,5 +1,5 @@
 const MAX_Y = 4;
-const MAX_X = 10; 
+const MAX_X = 14; 
 
 class Avatar {
     constructor(x, y) {
