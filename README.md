@@ -59,7 +59,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 ### Módulo 7: 🐧 Linux 
 | Aula | Tópico Principal | Status | Link |
 | :-- | :-- | :-- | :-- |
-| 01 | Linux | Em andamento 🚧 | [Resolução]() |
+| 01 | Linux | Em andamento 🚧 | [Resolução](./Modulo_Linux/Aula01-Linux/lista.md) |
 | 02 | Ferramentas do Linux | Em andamento 🚧 | [Resolução]() |
 | 03 | User e FTP | Em andamento 🚧 | [Resolução]() |
 | 04 | SSH e Shell | Em andamento 🚧 | [Resolução]() |
