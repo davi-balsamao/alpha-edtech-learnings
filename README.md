@@ -55,5 +55,14 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | 04 | Métodos Array, Subprogramação e Módulos | Concluído ✅ | [Resolução](./Modulo_JS/Aula04-Métodos_Array_Subprogramação_e_Módulos/lista.md) |
 | 05 | Controle de Tempo, SPA, Requisições, Promises e Classes | Concluído ✅ | [Resolução](./Modulo_JS/Aula05-Controle_de_Tempo,SPA,Requisições,Promises_e_Classes/lista.md) |
 
+
+### Módulo 7: 🐧 Linux 
+| Aula | Tópico Principal | Status | Link |
+| :-- | :-- | :-- | :-- |
+| 01 | Linux | Em andamento 🚧 | [Resolução]() |
+| 02 | Ferramentas do Linux | Em andamento 🚧 | [Resolução]() |
+| 03 | User e FTP | Em andamento 🚧 | [Resolução]() |
+| 04 | SSH e Shell | Em andamento 🚧 | [Resolução]() |
+
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*
