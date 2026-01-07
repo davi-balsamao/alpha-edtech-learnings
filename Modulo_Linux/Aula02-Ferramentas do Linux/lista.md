@@ -6,7 +6,7 @@ Para todas as questões abaixo é necessário demonstrar salvando os comandos e 
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio01/InstalaçãoVim.docx)
 
 ---
 ## Q2
@@ -22,7 +22,7 @@ Trabalhe com comandos básicos:
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio02/Compactando_Descompactando.docx)
 
 --- 
 ## Q3
@@ -35,7 +35,7 @@ Buscando arquivos ou diretórios.
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio03/FindLocate.docx)
 
 --- 
 ## Q4
@@ -43,7 +43,7 @@ Usando piping, crie um arquivo “meutexto.txt”, escreva seu nome nele e logo 
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio04/Piping.docx)
 
 --- 
 ## Q5
@@ -56,7 +56,7 @@ Uso do Apache.
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio05/InstalandoApache.docx)
 
 --- 
 ## Q6
@@ -64,7 +64,7 @@ Qual a diferença entre arquivo .tar e arquivo .tar.gz ? Que comandos do Linux p
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio06/Tar.docx)
 
 --- 
 ## Q7
@@ -72,6 +72,8 @@ Um arquivo .tar.gz é um arquivo compactado. Mas um arquivo .zip ou um arquivo .
 
 **Resposta**
 
+Embora todos sejam arquivos compactados, a principal diferença técnica está na preservação de permissões e na arquitetura de compressão. O formato .tar.gz é o padrão absoluto em ambientes Linux/Servidores porque ele preserva os metadados do sistema (quem é o dono do arquivo e se ele é executável) e utiliza "compressão sólida" (agrupa tudo antes de comprimir), o que gera arquivos menores e mais eficientes para armazenamento.
+Por outro lado, o .zip comprime arquivos individualmente (menos eficiente, mas permite extrair um arquivo só rapidamente) e não foi desenhado para manter as permissões complexas do Linux, sendo ideal apenas para troca de documentos entre sistemas diferentes (como Windows e Mac). Já o .rar é tecnicamente eficiente, mas é evitado em infraestrutura profissional e DevOps por ser um formato proprietário (fechado/pago), enquanto .tar.gz e .zip são padrões abertos universais.
 
 
 --- 
