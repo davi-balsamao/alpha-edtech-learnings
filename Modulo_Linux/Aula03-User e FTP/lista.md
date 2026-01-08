@@ -18,7 +18,7 @@ Considere o seguinte cenário de grupos e usuários. Faça os comandos correspon
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio01/AddUserGroups.docx)
 
 ---
 ## Q2
@@ -38,7 +38,7 @@ Execute os comandos a seguir, coloque num pdf a execução dos comandos:
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio02/ManipulacaoGroup.docx)
 
 ---
 ## Q3
@@ -54,6 +54,6 @@ Configure o vsftpd para usar o modo passivo com um intervalo de portas específi
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio03/VsftpFileZilla.docx)
 
 ---
