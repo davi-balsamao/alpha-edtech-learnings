@@ -62,7 +62,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | 01 | Linux | Concluído ✅ | [Resolução](./Modulo_Linux/Aula01-Linux/lista.md) |
 | 02 | Ferramentas do Linux | Concluído ✅ | [Resolução](./Modulo_Linux/Aula02-Ferramentas%20do%20Linux/lista.md) |
 | 03 | User e FTP | Concluído ✅ | [Resolução](./Modulo_Linux/Aula03-User%20e%20FTP/lista.md) |
-| 04 | SSH e Shell | Em andamento 🚧 | [Resolução]() |
+| 04 | SSH e Shell | Concluído ✅ | [Resolução](./Modulo_Linux/Aula04-SSH%20e%20Shell/lista.md) |
 
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*
