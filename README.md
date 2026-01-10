@@ -60,15 +60,15 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | Aula | Tópico Principal | Status | Link |
 | :-- | :-- | :-- | :-- |
 | 01 | Linux | Concluído ✅ | [Resolução](./Modulo_Linux/Aula01-Linux/lista.md) |
-| 02 | Ferramentas do Linux | Concluído ✅ | [Resolução](./Modulo_Linux/Aula02-Ferramentas%20do%20Linux/lista.md) |
-| 03 | User e FTP | Concluído ✅ | [Resolução](./Modulo_Linux/Aula03-User%20e%20FTP/lista.md) |
+| 02 | Ferramentas do Linux | Concluído ✅ | [Resolução](./Modulo_Linux/Aula02-Ferramentas_do_Linux/lista.md) |
+| 03 | User e FTP | Concluído ✅ | [Resolução](./Modulo_Linux/Aula03-User_e_FTP/lista.md) |
 | 04 | SSH e Shell | Concluído ✅ | [Resolução](./Modulo_Linux/Aula04-SSH%20e%20Shell/lista.md) |
 
 ### Módulo 8: 🖧 Servidores
 | Aula | Tópico Principal | Status | Link |
 | :-- | :-- | :-- | :-- |
-| 01 | Servidores Web | 🚧 Em andamento | [Resolução]() |
-| 02 | Fundamentos de JavaScript | 🚧 Em andamento | [Resolução]() |
+| 01 | Servidores Web | 🚧 Em andamento | [Resolução](./Modulo_Servidores/Aula01-Servidores_Web/lista.md) |
+| 02 | Fundamentos de JavaScript | 🚧 Em andamento | [Resolução](./Modulo_Servidores/Aula02-Fundamentos_de_JavaScript/lista.md) |
 
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*
