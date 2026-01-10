@@ -5,7 +5,7 @@ Demonstre a instalação do servidor Apache no Linux Ubuntu passo-a-passo e conc
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio1/AlterandoPaginaPadrao.docx)
 
 ---
 ## Q2
@@ -13,7 +13,7 @@ Demonstre a instalação do servidor Nginx no Linux Ubuntu passo-apasso e concl
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio2/ServidorNginx.docx)
 
 ---
 ## Q3
@@ -21,7 +21,7 @@ Demonstre a instalação do nodejs e npm utilizando o sistema do apt passo-a-pas
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio3/InstallNodejsNpm.docx)
 
 ---
 ## Q4
@@ -33,7 +33,7 @@ Resultado:
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio4/InstallNodeSemApt.docx)
 
 ---
 ## Q5
@@ -42,7 +42,7 @@ https://app.diagrams.net/
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio5/ProxyReverso.docx)
 
 ---
 ## Q6
@@ -50,7 +50,7 @@ Configure o Apache HTTPD para suportar requisições HTTPS utilizando chaves aut
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio6/ApacheHTTPD.docx)
 
 ---
 ## Q7
@@ -58,6 +58,6 @@ Configure o NGINX para suportar requisições HTTPS utilizando chaves auto assin
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio7/NginxHttps.docx)
 
 ---
