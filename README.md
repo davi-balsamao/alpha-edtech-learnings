@@ -64,5 +64,11 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | 03 | User e FTP | Concluído ✅ | [Resolução](./Modulo_Linux/Aula03-User%20e%20FTP/lista.md) |
 | 04 | SSH e Shell | Concluído ✅ | [Resolução](./Modulo_Linux/Aula04-SSH%20e%20Shell/lista.md) |
 
+### Módulo 8: 🖧 Servidores
+| Aula | Tópico Principal | Status | Link |
+| :-- | :-- | :-- | :-- |
+| 01 | Servidores Web | 🚧 Em andamento | [Resolução]() |
+| 02 | Fundamentos de JavaScript | 🚧 Em andamento | [Resolução]() |
+
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*
