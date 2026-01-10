@@ -67,7 +67,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 ### Módulo 8: 🖧 Servidores
 | Aula | Tópico Principal | Status | Link |
 | :-- | :-- | :-- | :-- |
-| 01 | Servidores Web | 🚧 Em andamento | [Resolução](./Modulo_Servidores/Aula01-Servidores_Web/lista.md) |
+| 01 | Servidores Web | Concluído ✅ | [Resolução](./Modulo_Servidores/Aula01-Servidores_Web/lista.md) |
 | 02 | Fundamentos de JavaScript | 🚧 Em andamento | [Resolução](./Modulo_Servidores/Aula02-Fundamentos_de_JavaScript/lista.md) |
 
 ---
