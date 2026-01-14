@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "alpha-edtech-loja",
+		"name": "API Loja - Exercício 8",
+		"description": "Coleção completa para testar as rotas de Produtos, Clientes e Pedidos.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Produtos",
+			"item": [
+				{
+					"name": "Criar Produto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Mouse Gamer\",\n    \"value\": 150.50\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/product",
+							"protocol": "http",
+							"host": ["localhost"],
+							"port": "3000",
+							"path": ["api", "product"]
+						}
+					}
+				},
+				{
+					"name": "Listar Produtos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/product"
+					}
+				},
+				{
+					"name": "Buscar Produto ID 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/product/1"
+					}
+				},
+				{
+					"name": "Atualizar Produto ID 1",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"value\": 120.00\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/product/1"
+					}
+				},
+				{
+					"name": "Deletar Produto ID 1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/product/1"
+					}
+				}
+			]
+		},
+		{
+			"name": "2. Clientes",
+			"item": [
+				{
+					"name": "Criar Cliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Davi Ladeira\",\n    \"email\": \"davi@exemplo.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/customer"
+					}
+				},
+				{
+					"name": "Listar Clientes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/customer"
+					}
+				},
+				{
+					"name": "Buscar Cliente ID 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/customer/1"
+					}
+				},
+				{
+					"name": "Atualizar Cliente ID 1",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"novo.email@exemplo.com\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/customer/1"
+					}
+				},
+				{
+					"name": "Deletar Cliente ID 1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/customer/1"
+					}
+				}
+			]
+		},
+		{
+			"name": "3. Pedidos",
+			"item": [
+				{
+					"name": "Criar Pedido",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"customerId\": 1,\n    \"items\": [\n        { \"id\": 1, \"quantity\": 2 }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/order"
+					}
+				},
+				{
+					"name": "Listar Pedidos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/order"
+					}
+				},
+				{
+					"name": "Buscar Pedido ID 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/order/1"
+					}
+				},
+				{
+					"name": "Busca Avançada (Por Cliente)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/order/search?customer_id=1",
+							"protocol": "http",
+							"host": ["localhost"],
+							"port": "3000",
+							"path": ["api", "order", "search"],
+							"query": [
+								{
+									"key": "customer_id",
+									"value": "1"
+								}
+							]
+						}
+					}
+				},
+				{
+					"name": "Busca Avançada (Por Produto)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/order/search?product_id=1",
+							"protocol": "http",
+							"host": ["localhost"],
+							"port": "3000",
+							"path": ["api", "order", "search"],
+							"query": [
+								{
+									"key": "product_id",
+									"value": "1"
+								}
+							]
+						}
+					}
+				},
+				{
+					"name": "Atualizar Pedido ID 1",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"items\": [\n        { \"id\": 1, \"quantity\": 10 }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/order/1"
+					}
+				},
+				{
+					"name": "Deletar Pedido ID 1",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/order/1"
+					}
+				}
+			]
+		}
+	]
+}

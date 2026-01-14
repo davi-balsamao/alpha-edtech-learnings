@@ -69,7 +69,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | :-- | :-- | :-- | :-- |
 | 01 | Servidores Web | Concluído ✅ | [Resolução](./Modulo_Servidores/Aula01-Servidores_Web/lista.md) |
 | 02 | Fundamentos de JavaScript | Concluído ✅ | [Resolução](./Modulo_Servidores/Aula02-Fundamentos_de_JavaScript/lista.md) |
-| 03 | APIs | 🚧 Em andamento | [Resolução](./Modulo_Servidores/Aula03-APIs/lista.md) |
+| 03 | APIs | Concluído ✅ | [Resolução](./Modulo_Servidores/Aula03-APIs/lista.md) |
 
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*

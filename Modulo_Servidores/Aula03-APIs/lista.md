@@ -16,7 +16,7 @@ remove o cliente com o ‘id’ passado
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio1/Exercicio1.docx)
 
 ---
 
@@ -25,7 +25,7 @@ Ajuste a API para que seja necessário o id do cliente associado na inclusão de
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio2/Exercicio2.docx)
 
 ---
 
@@ -41,7 +41,7 @@ o retorno deve ser um array de objetos de pedidos que contenham o cliente a ser 
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio3/Exercicio3.docx)
 
 ---
 
@@ -57,7 +57,7 @@ Um pedido deve ter no mínimo 1 produto;
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio4/Exercicio4.docx)
 
 ---
 
@@ -66,7 +66,7 @@ Adicione a proibição de que a página do cliente seja aberta em um ‘iframe�
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio5/Exercicio5.docx)
 
 ---
 
@@ -75,7 +75,7 @@ Bloqueie o acesso de requisições de outras fontes além da origem do cliente d
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio6/Exercicio6.docx)
 
 ---
 
@@ -84,7 +84,7 @@ Adicione códigos de status HTTP para todas as respostas às requisições HTTP,
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio7/Exercicio7.docx)
 
 ---
 
@@ -111,7 +111,7 @@ DELETE /api/customer/:id
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio8/Exercicio8.docx)
 
 ---
 
@@ -138,6 +138,6 @@ DELETE /api/customer/:id
 
 **Resposta**
 
-
+[Resolução](./Conjunto_exercicios/Exercicio9/Exercicio9.docx)
 
 ---
