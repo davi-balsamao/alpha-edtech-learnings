@@ -1,4 +1,4 @@
-# Lista de exercícios da Aula 05 - Melhorando aplicações NodeJS e RocksDB do Módulo Servidores
+# Lista de exercícios da Aula 05 - Melhorando aplicações NodeJS e LevelDB do Módulo Servidores
 
 ## Q1
 Crie um controle de variáveis de ambiente utilizando ‘dotenv’ de forma a não expor dados sensíveis na API já criada.

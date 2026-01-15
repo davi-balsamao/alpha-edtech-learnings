@@ -71,7 +71,7 @@ Este repositório centraliza minha evolução e resolução de exercícios duran
 | 02 | Fundamentos de JavaScript | Concluído ✅ | [Resolução](./Modulo_Servidores/Aula02-Fundamentos_de_JavaScript/lista.md) |
 | 03 | APIs | Concluído ✅ | [Resolução](./Modulo_Servidores/Aula03-APIs/lista.md) |
 | 04 | Controle de Sessão | Concluído ✅ | [Resolução](./Modulo_Servidores/Aula04-Controle_de_Sessao/lista.md) |
-| 05 | RocksDB | 🚧 Em andamento | [Resolução](./Modulo_Servidores/Aula05-RocksDB/lista.md) |
+| 05 | LevelDB | 🚧 Em andamento | [Resolução](./Modulo_Servidores/Aula05-LevelDB/lista.md) |
 
 ---
 *Desenvolvido por **Davi Ladeira Balsamão**.*
