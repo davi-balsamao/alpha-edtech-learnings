@@ -4,7 +4,7 @@ const usuarios = [
     { 
         id: 1, 
         username: "admin", 
-        password: "123", // Em produção, isso seria criptografado!
+        password: "123", 
         name: "Administrador",
         sessionToken: null // Começa sem sessão (deslogado)
     },
@@ -17,6 +17,7 @@ const usuarios = [
     }
 ];
 
+// POST /api/login
 export const login = (req, res) => {
     const { username, password } = req.body;
 

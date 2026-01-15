@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken'; 
 import { SECRET_KEY } from '../config.js'; 
 
-// --- 1. BANCO DE DADOS (Mesma estrutura) ---
+// --- BANCO DE DADOS (Mesma estrutura) ---
 const usuarios = [
     { 
         id: 1, 
@@ -19,7 +19,7 @@ const usuarios = [
     }
 ];
 
-// --- 2. LÓGICA DE LOGIN  ---
+// --- LÓGICA DE LOGIN  ---
 export const login = (req, res) => {
     const { username, password } = req.body;
 
@@ -42,11 +42,11 @@ export const login = (req, res) => {
     // 1º param: dados, 2º param: chave secreta, 3º param: validade (1 hora)
     const tokenJWT = jwt.sign(dadosDoToken, SECRET_KEY, { expiresIn: '1h' });
 
-    // Enviamos o JWT como cookie (igual antes, mas agora o conteúdo é criptografado)
+    // Enviamos o JWT como cookie 
     res.cookie('session_id', tokenJWT, { 
         maxAge: 3600000, // 1 hora
         httpOnly: true 
-    });
+    })
 
     res.status(200).json({ mensagem: "Login JWT realizado com sucesso!" });
 };

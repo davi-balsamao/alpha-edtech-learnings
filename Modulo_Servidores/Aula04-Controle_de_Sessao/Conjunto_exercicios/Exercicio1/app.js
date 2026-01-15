@@ -1,12 +1,12 @@
 import express from 'express';
-import cookieParser from 'cookie-parser';
+import cookieParser from 'cookie-parser'; // Adicionado
 import productRoutes from './routes/productRoutes.js';
 import customerRoutes from './routes/customerRoutes.js'; 
 import orderRoutes from './routes/orderRoutes.js';
 import loginRoutes from './routes/loginRoutes.js';
 
 const app = express();
-app.use(cookieParser());
+app.use(cookieParser()); // Middleware para lidar com cookies
 const PORTA = 3000;
 
 app.use(express.json());
@@ -20,12 +20,10 @@ app.use((req, res, next) => {
 });
 
 app.use((req, res, next) => {
-    // CORS Manual
     const allowedOrigin = 'http://localhost:3000';
     const origin = req.headers.origin;
 
     if (origin && origin !== allowedOrigin) {
-        // EXPLICIT STATUS 403 (Forbidden)
         return res.status(403).json({ erro: 'CORS Policy: Acesso negado.' });
     }
     
@@ -34,7 +32,7 @@ app.use((req, res, next) => {
 });
 
 // Rotas
-app.use('/api/login', loginRoutes);
+app.use('/api/login', loginRoutes); // Adicionado
 app.use('/api/product', productRoutes);
 app.use('/api/customer', customerRoutes); 
 app.use('/api/order', orderRoutes);

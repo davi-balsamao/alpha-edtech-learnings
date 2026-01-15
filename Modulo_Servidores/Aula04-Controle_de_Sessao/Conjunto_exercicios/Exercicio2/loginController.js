@@ -19,7 +19,6 @@ const usuarios = [
     }
 ];
 
-// --- 2. LÓGICA DE LOGIN (PÚBLICA) ---
 // POST /api/login
 export const login = (req, res) => {
     const { username, password } = req.body;
@@ -43,17 +42,13 @@ export const login = (req, res) => {
     res.status(200).json({ mensagem: "Login realizado!" });
 };
 
-// --- 3. FUNCIONALIDADES DO USUÁRIO ---
-
 // GET /api/login/ 
 export const getMyProfile = (req, res) => {
-    // O 'req.user' foi colocado aqui pelo Middleware
-    // Então não precisamos buscar no banco de novo.
     const { password, sessionToken, ...dadosSeguros } = req.user;
     res.json(dadosSeguros);
 };
 
-// --- 4. FUNCIONALIDADES DO ADMIN (RESTRITAS) ---
+// --- FUNCIONALIDADES DO ADMIN (RESTRITAS) ---
 
 // GET /api/login/all (Ver todos)
 export const getAllUsers = (req, res) => {
