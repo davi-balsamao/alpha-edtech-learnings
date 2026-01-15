@@ -1,9 +1,12 @@
 import express from 'express';
+import cookieParser from 'cookie-parser';
 import productRoutes from './routes/productRoutes.js';
 import customerRoutes from './routes/customerRoutes.js'; 
 import orderRoutes from './routes/orderRoutes.js';
+import loginRoutes from './routes/loginRoutes.js';
 
 const app = express();
+app.use(cookieParser());
 const PORTA = 3000;
 
 app.use(express.json());
@@ -31,6 +34,7 @@ app.use((req, res, next) => {
 });
 
 // Rotas
+app.use('/login', loginRoutes);
 app.use('/api/product', productRoutes);
 app.use('/api/customer', customerRoutes); 
 app.use('/api/order', orderRoutes);
